@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-[coding.gif](./coding.gif)
+[coding.gif](./media/coding.gif)
 
 I'm Vedant! Thanks for reading!
 
