@@ -1,6 +1,6 @@
-### Hi there 👋
+### Hallo there!
 
-**I'm Vedant! Thanks for reading!**
+I'm Vedant, nice to meet you ヽ(^o^)丿
 
 I'm a Linux and open source enthusiast. I love reading, programming and
 documenting stuff.
