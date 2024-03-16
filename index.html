@@ -1,0 +1,570 @@
+<!--
+
+	# /index.html
+	# my site :)
+	# tailwind template used as-is from https://tailwindflex.com/@anonymous/simple-resume-card.
+
+-->
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth@8..144,112.5&family=Roboto+Slab&display=swap"
+			rel="stylesheet"
+		/>
+
+		<style>
+			.roboto-regular {
+				font-family: 'Roboto Slab', sans-serif;
+				font-weight: 400;
+				font-style: normal;
+			}
+
+			.robotoslab-medium {
+				font-family: 'Roboto Slab', sans-serif;
+				font-weight: 500;
+				font-style: normal;
+			}
+		</style>
+	</head>
+	<body class="roboto-regular">
+		<div class="bg-gray-100 font-sans">
+			<div class="container mx-auto py-8 px-4">
+				<div class="bg-white p-6 rounded-lg shadow-lg">
+					<h1 class="text-3xl font-semibold robotoslab-regular">
+						Vedant Kulkarni
+					</h1>
+					<i class="text-gray-600 text-sm">gamemaker0042 at gmail dot com</i>
+
+					<hr class="my-4" />
+
+					<!-- Bio -->
+
+					<h3 class="text-xl robotoslab-medium mb-2" id="about">About Me</h3>
+					<p class="text-gray-700 text-sm">
+						I am a twelfth grader who loves reading, programming and documenting
+						stuff. Over the past seven years, I have been contributing to,
+						maintaining and creating new open source projects. I've delved into
+						information retrieval and extraction, registries and verifiable
+						credentials, http server middleware, and more recently, running AI
+						models on edge TPUs.
+					</p>
+					<p class="mt-2 text-gray-700 text-sm">
+						You can check out my GitHub profile
+						<a
+							href="https://github.com/gamemaker1"
+							class="text-blue-500 hover:underline"
+						>
+							here.
+						</a>
+					</p>
+
+					<hr class="my-4" />
+
+					<!-- Maintained Projects -->
+
+					<h2 class="text-xl robotoslab-medium mt-4 mb-2" id="maintainer">
+						Projects That I Maintain
+					</h2>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/express-rate-limit/express-rate-limit"
+								class="text-pink-700 font-semibold underline"
+								>express-rate-limit</a
+							>
+
+							<i class="text-gray-700 text-sm"> 2.7k stars, 7.6M dl/month </i>
+							(<a
+								href="https://github.com/express-rate-limit/express-rate-limit/pulls?q=author%3Agamemaker1"
+								class="text-blue-400 hover:underline text-sm"
+								>list of authored pull requests</a
+							>)
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							Rewrote the library in Typescript, created the modern store
+							interface and continue to maintain it alongside
+							<a
+								href="https://github.com/nfriedly"
+								class="text-blue-500 hover:underline"
+								>@nfriedly</a
+							>, the original author. I also help maintain 7 out of the 8
+							<a
+								href="https://express-rate-limit.mintlify.app/reference/stores"
+								class="text-blue-500 hover:underline"
+								>stores written for the library</a
+							>.
+						</p>
+					</div>
+
+					<hr class="my-4" />
+
+					<!-- Contributed Projects -->
+
+					<h2 class="text-xl robotoslab-medium mt-4 mb-2" id="contributor">
+						Projects That I Have Contributed To
+					</h2>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/vercel/serve"
+								class="text-pink-700 font-semibold underline"
+								>vercel/serve</a
+							>
+
+							<i class="text-gray-700 text-sm"> 9.1k stars, 6.6M dl/month </i>
+							(<a
+								href="https://github.com/vercel/serve/pulls?q=author%3Agamemaker1"
+								class="text-blue-400 hover:underline text-sm"
+								>5 merged pull requests</a
+							>)
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							Refactored the library, added tests, and transitioned to ESM +
+							Typescript.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/refined-github/refined-github"
+								class="text-pink-700 font-semibold underline"
+								>refined-github</a
+							>
+
+							<i class="text-gray-700 text-sm"> 22.8k stars, 80k+ users </i>
+							(<a
+								href="https://github.com/refined-github/refined-github/pulls?q=author%3Agamemaker1"
+								class="text-blue-400 hover:underline text-sm"
+								>14 merged pull requests</a
+							>)
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							Contributed to 8 popular features, including
+							useful-not-found-page, restore-file, quick-comment-edit,
+							linkify-code and forked-to.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/jordansissel/fpm"
+								class="text-pink-700 font-semibold underline"
+								>jordansissel/fpm</a
+							>
+							<i class="text-gray-700 text-sm"> 11k stars </i>
+							(<a
+								href="https://github.com/jordansissel/fpm/pulls?q=author%3Agamemaker1"
+								class="text-blue-400 hover:underline text-sm"
+								>1 merged pull request</a
+							>)
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							Restructured the documentation, rewrote parts of the installation
+							page, added a getting started page, tutorials and examples, as
+							well as a CLI flags reference page.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/timocov/dts-bundle-generator"
+								class="text-pink-700 font-semibold underline"
+								>timocov/dts-bundle-generator</a
+							>
+
+							<i class="text-gray-700 text-sm"> 660+ stars, 187k dl/month </i>
+							(<a
+								href="https://github.com/timocov/dts-bundle-generator/pulls?q=author%3Agamemaker1"
+								class="text-blue-400 hover:underline text-sm"
+								>1 merged pull request</a
+							>)
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							Fixed a bug where the library does not export-default an
+							expression when re-exporting the default export from another file.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/jordansissel/fpm"
+								class="text-pink-700 font-semibold underline"
+								>flutter/flutter</a
+							>
+							<i class="text-gray-700 text-sm"> 160k stars </i>
+							(<a
+								href="https://github.com/flutter/flutter/pulls?q=author%3Agamemaker1"
+								class="text-blue-400 hover:underline text-sm"
+								>1 pull request</a
+							>)
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							Added a host validation check to the flutter doctor tool.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/sunbird-rc/sunbird-rc-core"
+								class="text-pink-700 font-semibold underline"
+								>sunbird-rc</a
+							>
+							(<a
+								href="https://github.com/search?q=involves%3Agamemaker1+org%3Asunbird-rc&type=pullrequests"
+								class="text-blue-400 hover:underline text-sm"
+								>15 pull requests</a
+							>)
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							Documented process of creating and working with registeries, and
+							created the
+							<a
+								href="https://npm.im/registry-cli"
+								class="text-blue-400 hover:underline"
+								>registry-cli</a
+							>
+							package to spin up a registry quickly and easily.
+						</p>
+						<p class="mt-1 text-gray-700 text-sm">
+							Submitted various RFCs (<a
+								href="https://github.com/gamemaker1/electronic-registry-spec"
+								class="text-blue-500 hover:underline"
+								>1</a
+							>,
+							<a
+								href="https://github.com/orgs/Sunbird-RC/discussions/98"
+								class="text-blue-500 hover:underline"
+								>2</a
+							>,
+							<a
+								href="https://github.com/orgs/Sunbird-RC/discussions/99"
+								class="text-blue-500 hover:underline"
+								>3</a
+							>,
+							<a
+								href="https://github.com/Sunbird-RC/community/issues/103"
+								class="text-blue-500 hover:underline"
+								>4</a
+							>) to improve the project.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/thecodrr/crayon"
+								class="text-pink-700 font-semibold underline"
+								>thecodrr/crayon</a
+							>
+
+							<i class="text-gray-700 text-sm"> 50+ stars </i>
+							(<a
+								href="https://github.com/thecodrr/crayon/pulls?q=author%3Agamemaker1"
+								class="text-blue-400 hover:underline text-sm"
+								>1 merged pull request</a
+							>)
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							Updated the library to work with the latest version of V.
+						</p>
+					</div>
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/kiranwells/micro-nord-tc-colors"
+								class="text-pink-700 font-semibold underline"
+								>kiranwells/micro-nord-tc-colors</a
+							>
+
+							<i class="text-gray-700 text-sm"> 30+ stars </i>
+							(<a
+								href="https://github.com/kiranwells/micro-nord-tc-colors/pulls?q=author%3Agamemaker1"
+								class="text-blue-400 hover:underline text-sm"
+								>1 merged pull request</a
+							>)
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							Added installation guide to the readme.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/zyedidia/micro"
+								class="text-pink-700 font-semibold underline"
+								>zyedidia/micro</a
+							>
+
+							<i class="text-gray-700 text-sm"> 23.7k stars </i>
+							(<a
+								href="https://github.com/micro-editor/plugin-channel/pull/82"
+								class="text-blue-400 hover:underline text-sm"
+								>1 pull request</a
+							>)
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							Created a script to automate adding plugins to the official
+							channel.
+						</p>
+					</div>
+
+					<hr class="my-4" />
+
+					<!-- Created Projects -->
+
+					<h2 class="text-xl robotoslab-medium mt-4 mb-2" id="creator">
+						Projects That I Have Created
+					</h2>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/dabbu-knowledge-platform/cli"
+								class="text-pink-700 font-semibold underline"
+								>dabbu-knowledge-platform</a
+							>
+
+							(<a
+								href="https://dabbu-knowledge-platform.github.io"
+								class="text-blue-400 hover:underline text-sm"
+								>documentation</a
+							>)
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							The Dabbu Knowledge Platform was created with an aim to rethink
+							the way we organize and traverse large amounts of knowledge, no
+							matter where it is stored. Dabbu allows you to access any of your
+							personal information (Gmail, Google Drive, OneDrive, your hard
+							drive, etc.) as simple files and folders from the Dabbu CLI.
+						</p>
+						<p class="mt-1 text-gray-700 text-sm">
+							You can also go into the knowledge drive where you can pivot
+							information by topics/people/places. For example,
+							<code>k:/$ cd austin</code> will return you all your information
+							from Gmail, GDrive, OneDrive that has a reference to the place
+							Austin. You can further narrow your search by running
+							<code>k:/austin$ cd ravi@example.com</code>. This would show you
+							all emails and files that are related to Austin and from/to
+							ravi@example.com.
+						</p>
+						<p class="mt-1 text-gray-700 text-sm">
+							The feature that allows you to organise/search your files based on
+							topics in the files' text, uses the Latent Dirichlet Algorithm to
+							extract the topics. In the future, I'd like to generate a
+							one-pager/summary related to a certain set of
+							topics/places/people. For example,
+							<code>k:/austin/ravi@example.com$ one-pager</code> should give me
+							a neatly organized one pager of all Austin related things I have
+							discussed with ravi@example.com. This could be tackled using small
+							AI models, or simple natural language processing.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/verifiable-presentation/spec"
+								class="text-pink-700 font-semibold underline"
+								>verifiable-presentation/generation-service</a
+							>
+
+							(<a
+								href="https://github.com/verifiable-presentation/impl"
+								class="text-blue-400 hover:underline text-sm"
+								>reference impl</a
+							>)
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							The specification and minimal reference implementation for a
+							plugin-based service that allows issuers to render verifiable
+							presentations, based on the
+							<a
+								href="https://www.w3.org/TR/vc-data-model"
+								class="text-blue-500 hover:underline"
+								>W3C verifiable credential specification</a
+							>
+							from templates, and store it in a queryable database for holders
+							to list/retrieve.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/gamemaker1/office-text-extractor"
+								class="text-pink-700 font-semibold underline"
+								>office-text-extractor</a
+							>
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							Yet another library to extract text from docx, pptx, xlsx, and pdf
+							files. What sets it apart is that it parses files based on their
+							mime types, and not their file extensions. It does not spawn a
+							child process to use a tool installed on the device, and it reads
+							and returns text from the file if it contains plain text.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/gamemaker1/yeet"
+								class="text-pink-700 font-semibold underline"
+								>yeet</a
+							>
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							A minimalistic pacman wrapper written in bash.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/gamemaker1/bak"
+								class="text-pink-700 font-semibold underline"
+								>bak</a
+							>
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							A minimalistic backup tool written in bash.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/gamemaker1/tau"
+								class="text-pink-700 font-semibold underline"
+								>tau</a
+							>
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							tiny, adorable urls: a url shortener, written in python using
+							flask and sqlite3.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/gamemaker1/http-negotiator"
+								class="text-pink-700 font-semibold underline"
+								>http-negotiator</a
+							>
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							A HTTP content negotiator for V that allows you to parse the
+							Accept header of an HTTP request and get the preferred response
+							media type specified by the client.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/gamemaker1/micro-plugin-prettier"
+								class="text-pink-700 font-semibold underline"
+								>micro-plugin-prettier</a
+							>
+
+							and
+
+							<a
+								href="https://github.com/gamemaker1/micro-plugin-xo"
+								class="text-pink-700 font-semibold underline"
+								>micro-plugin-xo</a
+							>
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							Plugins to format and lint code using
+							<a
+								href="https://prettier.io"
+								class="text-blue-500 hover:underline"
+								>Prettier</a
+							>
+							and
+							<a
+								href="https://github.com/xojs/xo"
+								class="text-blue-500 hover:underline"
+								>XO</a
+							>
+							for my favourite editor,
+							<a
+								href="https://micro-editor.github.io"
+								class="text-blue-500 hover:underline"
+								>Micro</a
+							>.
+						</p>
+					</div>
+
+					<div class="mb-4">
+						<h4 class="text-md">
+							<a
+								href="https://github.com/gamemaker1/subtitle-translator"
+								class="text-pink-700 font-semibold underline"
+								>subtitle-translator</a
+							>
+						</h4>
+						<p class="mt-1 text-gray-700 text-sm">
+							A python that uses Deeplator to translate subtitles in .srt files
+							to and from six different languages. This project was one of my
+							first open source projects, and my submission to Google Code-In in
+							2018.
+						</p>
+					</div>
+
+					<hr class="my-4" />
+
+					<!-- Areas of Interest -->
+
+					<h2 class="text-xl robotoslab-medium mt-4 mb-2" id="contributor">
+						Areas of Interest
+					</h2>
+					<p class="mt-1 text-gray-700 text-sm">
+						The following are topics I would like to research in the near
+						future.
+					</p>
+
+					<div class="mt-4">
+						<li class="mt-1 text-gray-700 text-sm">Neurosymbolic AI</li>
+						<li class="mt-1 text-gray-700 text-sm">Time series analysis</li>
+						<li class="mt-1 text-gray-700 text-sm">
+							Procedurally generated reinforcement learning environments
+						</li>
+						<li class="mt-1 text-gray-700 text-sm">
+							Causal information extraction, and creating knowledge graphs
+						</li>
+						<li class="mt-1 text-gray-700 text-sm">
+							Annotating unstructured multimodal information
+						</li>
+						<li class="mt-1 text-gray-700 text-sm">
+							Image and video generation
+						</li>
+						<li class="mt-1 text-gray-700 text-sm">
+							Frugal AI, running inference on edge TPUs and CPUs
+						</li>
+						<li class="mt-1 text-gray-700 text-sm">
+							Benchmarking datasets and models
+						</li>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
