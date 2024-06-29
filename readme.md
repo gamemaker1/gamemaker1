@@ -33,6 +33,19 @@ Helped with the rewrite in Typescript, and achieving feature parity with
 express-rate-limit. I continue to maintain it alongside
 [@nfriedly](https://github.com/nfriedly), the original author.
 
+---
+
+#### [agent-torch](https://github.com/agenttorch/agenttorch)
+
+> _part of the MIT Media Lab's Large Population Models project_
+
+Created a custom model using the framework to simulate movement of predator
+and prey on a map of Central Park, NY. Also added a feature that allows for
+easier declaration of substeps using decorators.
+
+Currently working on various applications of the framework in areas such as
+housing, as well as integrating it with [Beckn](https://becknprotocol.io).
+
 ## Projects That I Have Contributed To
 
 #### [vercel/serve](https://github.com/vercel/serve)
