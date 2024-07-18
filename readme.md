@@ -2,11 +2,28 @@
 
 ## About Me
 
-I am a twelfth grader who loves reading, programming and documenting stuff. Over
-the past seven years, I have been contributing to, maintaining and creating new
-open source projects. I've delved into information retrieval and extraction,
-registries and verifiable credentials, http server middleware, and more
-recently, running AI models on edge TPUs.
+I am an incoming undergraduate computer science student at
+[IIIT Hyderabad](https://www.iiit.ac.in). I have contributed 400+ issues/PRs
+across 30+ repositories over the past seven years - starting with my first PR
+for Google Code-In when in 2018, to most recently working with MIT Media Lab’s
+Large Population Models (LPM) team on their
+[AgentTorch](https://lpm.media.mit.edu/docs) project for differentiable agent
+based learning since April 2024.
+
+I’m the co-maintainer for the popular node.js libraries
+[express-rate-limit](#express-rate-limit) and
+[express-slow-down](#express-slow-down) used to shield servers from DDOS
+attacks, contributor to [vercel/serve](#vercelserve),
+[Refined Github](#refined-github), [FPM](#jordansisselfpm),
+[Beckn](https://github.com/beckn),
+[Sunbird Registries and Credentials](#sunbird-rc), and have created projects
+such as [Dabbu](#dabbu-knowledge-platform) (a knowledge platform),
+[office-text-extractor](#office-text-extractor), as well as [yeet](#yeet) (a
+package manager for Arch Linux), amongst others. I participated in the national
+ONDC Grand Hackathon in 2022 and my team won a special mention award. I was also
+invited to give a talk titled 'A 12 Grader's Journey to Opensource Contribution
+via Sunbird and Beckn' at the
+[Sunbird DPG Tech Fusion Conference](https://lu.ma/kinhufit) in 2024.
 
 ## Projects That I Maintain
 
