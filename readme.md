@@ -2,7 +2,7 @@
 
 ## About Me
 
-I am an incoming undergraduate computer science student at
+I am an undergraduate computer science student at
 [IIIT Hyderabad](https://www.iiit.ac.in). I have contributed 400+ issues/PRs
 across 30+ repositories over the past seven years - starting with my first PR
 for Google Code-In when in 2018, to most recently working with MIT Media Lab’s
