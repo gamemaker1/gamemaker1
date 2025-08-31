@@ -180,8 +180,9 @@ not unlike the Gemini CLI. This effort included writing and refining
 [tutorials](https://github.com/offline-function-calling/sdk/tree/main/docs/learn),
 designing and running [benchmarks](https://github.com/offline-function-calling/benchmarks),
 and ongoing efforts to support function calling via the Ollama API in Gemma 3.
-The goal was to create a set of resources that demonstrates the viability of function
-calling with offline, open-source models, and helps developers get started with it.
+The goal was to push the boundaries of function calling with offline, open-source
+models like Gemma 3, and create tools and resources to help developers get started
+with it.
 
 ---
 
