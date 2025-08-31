@@ -5,10 +5,12 @@
 I am an undergraduate computer science student at
 [IIIT Hyderabad](https://www.iiit.ac.in). I have contributed 400+ issues/PRs
 across 30+ repositories over the past seven years - starting with my first PR
-for Google Code-In when in 2018, to most recently working with MIT Media Lab’s
-Large Population Models (LPM) team on their
-[AgentTorch](https://lpm.media.mit.edu/docs) project for differentiable agent
-based learning since April 2024.
+for Google Code-In in 2018, to working with MIT Media Lab’s Large Population
+Models (LPM) team on their [AgentTorch](https://lpm.media.mit.edu/docs) project
+for differentiable agent based learning in April 2024, and most recently with
+Google Deepmind to [extend and benchmark function calling in the Gemma 3 family
+of models](https://gamemaker1.github.io/projects/offline-function-calling)
+since May 2025.
 
 I’m the co-maintainer for the popular node.js libraries
 [express-rate-limit](#express-rate-limit) and
@@ -158,6 +160,31 @@ Created a script to automate adding plugins to the official channel.
 
 ## Projects That I Have Created
 
+#### [offline-function-calling](https://offline-function-calling.github.io)
+
+> ([contributions](./projects/offline-function-calling))
+
+This project was started as part of my [Google Summer of Code 2025 project with
+Google DeepMind](https://summerofcode.withgoogle.com/programs/2025/projects/rexKK7eu).
+The primary goal was to explore, extend, and document the function calling
+capabilities of the Gemma model family, This effort included benchmarking and
+writing tutorials and cookbooks for developers working with offline models like
+Gemma 3.
+
+Over 12 weeks, the project progressed from
+[simple initial experiments](https://github.com/gamemaker1/gemma3-function-calling-experiments)
+to creating a [comprehensive benchmarking suite](https://github.com/offline-function-calling/benchmarks),
+to the development of a [function calling SDK](https://github.com/offline-function-calling/sdk)
+and a [command-line interface](https://github.com/offline-function-calling/cli)
+not unlike the Gemini CLI. This effort included writing and refining
+[tutorials](https://github.com/offline-function-calling/sdk/tree/main/docs/learn),
+designing and running [benchmarks](https://github.com/offline-function-calling/benchmarks),
+and ongoing efforts to support function calling via the Ollama API in Gemma 3.
+The goal was to create a set of resources that demonstrates the viability of function
+calling with offline, open-source models, and helps developers get started with it.
+
+---
+
 #### [dabbu-knowledge-platform](https://github.com/dabbu-knowledge-platform/cli)
 
 > ([website](https://dabbu-knowledge-platform.github.io))
@@ -254,17 +281,18 @@ and my submission to Google Code-In in 2018.
 The following are topics I would like to research in the near future.
 
 - Neurosymbolic AI
-- Time series analysis
 - Procedurally generated reinforcement learning environments
 - Causal information extraction, and creating knowledge graphs
-- Annotating unstructured multimodal information
-- Image and video generation
-- Frugal AI, running inference on edge TPUs and CPUs
-- Benchmarking datasets and models
+- Sustainable AI, running inference on edge TPUs and CPUs
 
-The following are areas that I have previously explored:
+The following are areas that I have previously explored and really loved:
 
 - Building custom ROMs for Android phones (compiled LineageOS succesfully for my
-  own phone), and playing around with low level languages to better understand
-  how the computer works (followed tutorials to write a kernel in assembly and
-  rust).
+  own phone)
+- Playing around with low level languages to better understand how the computer
+  works (followed tutorials to write a kernel in assembly and rust)
+- Multimodal tool/function calling with LLM agents, and benchmarking the
+  function calling capabilities of different model sizes and quantizations (did
+  this as part of my GSoC project)
+- Agent based modelling involving LLMs (worked on applications of this as part
+  of my work on AgentTorch)
