@@ -4,15 +4,15 @@
 
 I am an undergraduate computer science student at
 [IIIT Hyderabad](https://www.iiit.ac.in). I have contributed 400+ issues/PRs
-across 30+ repositories over the past seven years - starting with my first PR
-for Google Code-In in 2018, to working with MIT Media Lab’s Large Population
+across 30+ repositories over the past eight years - starting with my first PR
+for Google Code-In in 2018, to working with MIT Media Lab's Large Population
 Models (LPM) team on their [AgentTorch](https://lpm.media.mit.edu/docs) project
 for differentiable agent based learning in April 2024, and most recently with
-Google Deepmind to [extend and benchmark function calling in the Gemma 3 family
-of models](https://gamemaker1.github.io/projects/offline-function-calling)
+Google Deepmind to
+[extend and benchmark function calling in the Gemma 3 family of models](https://gamemaker1.github.io/projects/offline-function-calling)
 since May 2025.
 
-I’m the co-maintainer for the popular node.js libraries
+I am the co-maintainer for the popular node.js libraries
 [express-rate-limit](#express-rate-limit) and
 [express-slow-down](#express-slow-down) used to shield servers from DDOS
 attacks, contributor to [vercel/serve](#vercelserve),
@@ -21,17 +21,18 @@ attacks, contributor to [vercel/serve](#vercelserve),
 [Sunbird Registries and Credentials](#sunbird-rc), and have created projects
 such as [Dabbu](#dabbu-knowledge-platform) (a knowledge platform),
 [office-text-extractor](#office-text-extractor), as well as [yeet](#yeet) (a
-package manager for Arch Linux), amongst others. I participated in the national
-ONDC Grand Hackathon in 2022 and my team won a special mention award. I was also
-invited to give a talk titled 'A 12 Grader's Journey to Opensource Contribution
-via Sunbird and Beckn' at the
+package manager for Arch Linux), amongst others. I co-created and currently
+maintain the [Mess Portal](https://mess.iiit.ac.in) and associated systems at
+IIIT Hyderabad. I participated in the national ONDC Grand Hackathon in 2022 and
+my team won a special mention award. I was also invited to give a talk titled 'A
+12 Grader's Journey to Opensource Contribution via Sunbird and Beckn' at the
 [Sunbird DPG Tech Fusion Conference](https://lu.ma/kinhufit) in 2024.
 
 ## Projects That I Maintain
 
 #### [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit)
 
-> _2.7k stars, 7.6M dl/month_
+> _3.2k stars, 36M dl/month_
 > ([list of authored pull requests](https://github.com/express-rate-limit/express-rate-limit/pulls?q=author%3Agamemaker1))
 
 Rewrote the library in Typescript, created the modern store interface and
@@ -46,7 +47,7 @@ the default memory store to make it more memory-efficient.
 
 #### [express-slow-down](https://github.com/express-rate-limit/express-rate-limit)
 
-> _230+ stars, 95k dl/month_
+> _300+ stars, 206k dl/month_
 
 Helped with the rewrite in Typescript, and achieving feature parity with
 express-rate-limit. I continue to maintain it alongside
@@ -70,7 +71,7 @@ integrating it with Beckn.
 
 #### [vercel/serve](https://github.com/vercel/serve)
 
-> _9.1k stars, 6.6M dl/month_
+> _9.8k stars, 45M dl/month_
 > ([5 merged pull requests](https://github.com/vercel/serve/pulls?q=author%3Agamemaker1))
 
 Refactored the library, added tests, and transitioned to ESM + Typescript.
@@ -79,7 +80,7 @@ Refactored the library, added tests, and transitioned to ESM + Typescript.
 
 #### [refined-github](https://github.com/refined-github/refined-github)
 
-> _22.8k stars, 80k+ users_
+> _30.1k stars, 80k+ users_
 > ([14 merged pull requests](https://github.com/refined-github/refined-github/pulls?q=author%3Agamemaker1))
 
 Contributed to 8 popular features, including useful-not-found-page,
@@ -89,7 +90,7 @@ restore-file, quick-comment-edit, linkify-code and forked-to.
 
 #### [jordansissel/fpm](https://github.com/jordansissel/fpm)
 
-> _11k stars_
+> _11.4k stars_
 > ([1 merged pull request](https://github.com/jordansissel/fpm/pulls?q=author%3Agamemaker1))
 
 Restructured the documentation, rewrote parts of the installation page, added a
@@ -100,11 +101,31 @@ page.
 
 #### [timocov/dts-bundle-generator](https://github.com/timocov/dts-bundle-generator)
 
-> _660+ stars, 187k dl/month_
+> _850+ stars, 910k dl/month_
 > ([1 merged pull request](https://github.com/timocov/dts-bundle-generator/pulls?q=author%3Agamemaker1))
 
 Fixed a bug where the library does not export-default an expression when
 re-exporting the default export from another file.
+
+---
+
+#### [alexandergrooff/mermaid-ascii](https://github.com/alexandergrooff/mermaid-ascii)
+
+> _380+ stars_
+> ([1 merged pull request](https://github.com/alexandergrooff/mermaid-ascii/pulls?q=author%3Agamemaker1))
+
+Fixed a bug where the rendered diagram is printed twice in the terminal.
+
+---
+
+#### [ekondis/mixbench](https://github.com/ekondis/mixbench)
+
+> _440+ stars_
+> ([2 merged pull requests](https://github.com/ekondis/mixbench/pulls?q=author%3Agamemaker1))
+
+Modified the build process so that it auto-detects and builds the executable for
+the installed CUDA version, and updated the code to compile and run with CUDA
+13.0.
 
 ---
 
@@ -164,8 +185,8 @@ Created a script to automate adding plugins to the official channel.
 
 > ([contributions](./projects/offline-function-calling))
 
-This project was started as part of my [Google Summer of Code 2025 project with
-Google DeepMind](https://summerofcode.withgoogle.com/programs/2025/projects/rexKK7eu).
+This project was started as part of my
+[Google Summer of Code 2025 project with Google DeepMind](https://summerofcode.withgoogle.com/programs/2025/projects/rexKK7eu).
 The primary goal was to explore, extend, and document the function calling
 capabilities of the Gemma model family, This effort included benchmarking and
 writing tutorials and cookbooks for developers working with offline models like
@@ -173,16 +194,19 @@ Gemma 3.
 
 Over 12 weeks, the project progressed from
 [simple initial experiments](https://github.com/gamemaker1/gemma3-function-calling-experiments)
-to creating a [comprehensive benchmarking suite](https://github.com/offline-function-calling/benchmarks),
-to the development of a [function calling SDK](https://github.com/offline-function-calling/sdk)
-and a [command-line interface](https://github.com/offline-function-calling/cli)
-not unlike the Gemini CLI. This effort included writing and refining
+to creating a
+[comprehensive benchmarking suite](https://github.com/offline-function-calling/benchmarks),
+to the development of a
+[function calling SDK](https://github.com/offline-function-calling/sdk) and a
+[command-line interface](https://github.com/offline-function-calling/cli) not
+unlike the Gemini CLI. This effort included writing and refining
 [tutorials](https://github.com/offline-function-calling/sdk/tree/main/docs/learn),
-designing and running [benchmarks](https://github.com/offline-function-calling/benchmarks),
-and ongoing efforts to support function calling via the Ollama API in Gemma 3.
-The goal was to push the boundaries of function calling with offline, open-source
-models like Gemma 3, and create tools and resources to help developers get started
-with it.
+designing and running
+[benchmarks](https://github.com/offline-function-calling/benchmarks), and
+ongoing efforts to support function calling via the Ollama API in Gemma 3. The
+goal was to push the boundaries of function calling with offline, open-source
+models like Gemma 3, and create tools and resources to help developers get
+started with it.
 
 ---
 
@@ -281,9 +305,10 @@ and my submission to Google Code-In in 2018.
 
 The following are topics I would like to research in the near future.
 
-- Neurosymbolic AI
-- Procedurally generated reinforcement learning environments
+- Explanability of AI models
 - Causal information extraction, and creating knowledge graphs
+- Security of AI models during training or inference
+- Scaling model size down while keeping their capabilities intact
 - Sustainable AI, running inference on edge TPUs and CPUs
 
 The following are areas that I have previously explored and really loved:
