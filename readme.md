@@ -6,15 +6,15 @@ are mechanistic interpretability and diffusion models.
 
 I have been writing open source code since 2018, and have contributed
 across 400+ issues and pull requests in 30+ repositories on GitHub. I
-co-maintain the node.js library [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit)
+co-maintain the Node.js library [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit)
 and several other packages in its ecosystem with their original author,
 [Nathan Friedly](https://github.com/nfriedly). I also co-created
 the [Mess Portal](https://mess.iiit.ac.in) and the systems around it at
 IIIT Hyderabad with [Aarnav Pai](https://github.com/arnu515), and
-continue to run them.
+continue to maintain them.
 
 I worked on [AgentTorch](https://github.com/agenttorch/agenttorch) with
-MIT Media Lab in 2024, and on
+MIT Media Lab's Large Population Models team in 2024, and on
 [function calling in the Gemma 3 family of models](https://gamemaker1.github.io/projects/offline-function-calling)
 with Google DeepMind in 2025, as a Google Summer of Code project. In
 2026, I am working with [Davide Baldelli](https://dundalia.github.io) on
