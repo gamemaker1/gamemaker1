@@ -17,7 +17,7 @@ I worked on [AgentTorch](https://github.com/agenttorch/agenttorch) with
 MIT Media Lab in 2024, and on
 [function calling in the Gemma 3 family of models](https://gamemaker1.github.io/projects/offline-function-calling)
 with Google DeepMind in 2025, as a Google Summer of Code project. In
-2026 I am working with [Davide Baldelli](https://dundalia.github.io) on
+2026, I am working with [Davide Baldelli](https://dundalia.github.io) on
 [Building a Robust Activation Monitor](https://sparai.org/projects/f26/recEOHVc40u0mglPU),
 a [SPAR](https://sparai.org) fellowship project on activation monitors
 that stay reliable across models, concepts, and contexts.
